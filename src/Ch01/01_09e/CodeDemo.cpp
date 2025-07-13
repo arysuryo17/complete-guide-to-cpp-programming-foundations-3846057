@@ -2,7 +2,7 @@
 // Challenge 01_09
 // Terminal Interaction, by Eduardo Corpeño 
 
-/*#include <iostream>
+#include <iostream>
 #include <string>
 
 int main(){
@@ -13,9 +13,9 @@ int main(){
 
     std::cout << std::endl << std::endl;
     return 0;
-}*/
+}
 
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 int main() {
@@ -53,4 +53,15 @@ int main() {
             cout << "Invalid operator";
     }
     return 0;
-}
+}*/
+
+/*// Print ASCII Code
+#include <iostream>
+using namespace std;
+int main()
+{
+    std::cout << "Printable ASCII [32..126]:\n";
+    for (char c{' '}; c <= '~'; ++c)
+        std::cout << c << ((c + 1) % 32 ? ' ' : '\n');
+    std::cout << '\n';
+}*/
